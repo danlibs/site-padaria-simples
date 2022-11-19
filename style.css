@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 243, 144);
+}
+
+#foto-capa {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    position: absolute;
+    color: white;
+    font-size: 4vw;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+section {
+    width: 80%;
+    border: 2px solid;
+    margin: 20px auto 20px auto;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 30px 5px 30px;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 1.25cm;
+}
+
+#foto-salgados {
+    width: 80%;
+    height: auto;
+    margin: 10px auto 10px auto;
+    display: flex;
+    border-radius: 50%;
+}
+
+#produtos {
+    display: flex;
+}
+
+.produto {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.foto-produto {
+    width: 100%;
+    height: 70%;
+}
